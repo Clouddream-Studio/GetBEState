@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net.Sockets;
+using System.Reflection;
 using System.Text;
 using System.Timers;
 
@@ -9,6 +10,7 @@ namespace MOTDBE
     {
         private static void Main(string[] args)
         {
+            Console.Title = Assembly.GetEntryAssembly().GetName().Name;
             string[] guid = Guid.NewGuid().ToString().ToUpper().Split('-');
             string str = $"01234567890123456700FFFF00FEFEFEFEFDFDFDFD12345678{guid[2]}{guid[4]}";
             byte[] str1 = new byte[str.Length / 2];
