@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetBEMOTD", "GetBEMOTD\GetBEMOTD.csproj", "{40A28907-F956-4A55-AEA0-217CCC8E31BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetBEState", "GetBEState\GetBEState.csproj", "{40A28907-F956-4A55-AEA0-217CCC8E31BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
